@@ -6,6 +6,7 @@ import { BodyComponent } from './components/body/body.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { RulesModalComponent } from './components/rules-modal/rules-modal.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RulesModalComponent } from './components/rules-modal/rules-modal.compon
     RulesModalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
